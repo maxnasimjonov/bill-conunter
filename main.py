@@ -11,7 +11,7 @@ def min_bills_algorithm():
     
     while True:
         # Get input and validate it ends with 5 or 0
-        try:
+        try: 
             amount = int(input("Enter amount (must end with 5 or 0) from 100 to 999995: "))
             if amount < 100 or amount > 99999 or amount % 5 != 0:
                 print("Invalid input! Amount must be between 100 and 99995 and end with 5 or 0.")
